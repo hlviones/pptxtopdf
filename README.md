@@ -28,6 +28,14 @@ This command will convert all the PowerPoint files in the `./input` folder and s
 
 ## Example in script
 
+```python
+from pptxtopdf import convert
+
+input_dir = r"C:\Users\Example\ExampleDirectory"
+output_dir = r"C:\Users\Example\ExampleDirectory"
+
+convert(input_dir, output_dir)
+```
 
 
 ## Functionality
