@@ -13,15 +13,16 @@ This is a Python script that converts PowerPoint files (.ppt, .pptx) to PDF form
 
 ## Usage
 
-Run the script with the following command:
+Run the script with the following arguments i.e pptxtopdf --input_dir "C:\Users\Example\Downloads\input":
 
-- `input-folder`: Path to the folder containing the PowerPoint files to convert.
-- `output-folder`: Path to the folder where the converted PDF files will be saved.
+- `--input_file`: Path to the folder containing the PowerPoint files to convert.
+- `--input_dir`: Path to the folder containing the PowerPoint files to convert.
+- `--output_dir`: [Optional] Path to the folder where the converted PDF files will be saved. If not provided, it defaults to the same directory as the input file or directory.
 
 ## Example from command line
 
 ```shell
-python pptxtopdf.py ./input ./output
+pptxtopdf --input_dir ./input --output_dir ./output
 ```
 
 This command will convert all the PowerPoint files in the `./input` folder and save the converted PDF files in the `./output` folder.

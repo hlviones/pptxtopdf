@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pptxtopdf',
-    version='1.0',
+    version='0.0.2',
     author='Victor Ionescu',
     author_email='hlviones@liverpool.ac.uk',
     description='Convert PowerPoint files to PDF',
@@ -25,6 +25,8 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],#
     url='https://github.com/hlviones/pptxtopdf',
 )
