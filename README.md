@@ -9,7 +9,7 @@ This is a Python script that converts PowerPoint files (.ppt, .pptx) to PDF form
 
 ## Dependancies 
 
-- comtypes library (Install using `pip install comtypes`)
+- comtypes library 
 
 ## Usage
 
@@ -18,10 +18,17 @@ Run the script with the following command:
 - `input-folder`: Path to the folder containing the PowerPoint files to convert.
 - `output-folder`: Path to the folder where the converted PDF files will be saved.
 
-## Example
+## Example from command line
 
+```shell
 python pptxtopdf.py ./input ./output
+```
+
 This command will convert all the PowerPoint files in the `./input` folder and save the converted PDF files in the `./output` folder.
+
+## Example in script
+
+
 
 ## Functionality
 
